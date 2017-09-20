@@ -128,7 +128,7 @@ namespace RunLengthEncoding
             yield return null;
         }
 
-        private string Stats(string PathOriginalFile, string PathCompFile)
+        public string Stats(string PathOriginalFile, string PathCompFile)
         {
             PathOriginalFile = FixPath(PathOriginalFile);
             PathCompFile = FixPath(PathCompFile);
